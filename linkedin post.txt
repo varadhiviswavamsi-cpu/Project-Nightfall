@@ -1,0 +1,29 @@
+Just wrapped up Project NightFall — a missile-command-style arcade defense game built entirely with Java Swing and Java 2D.
+
+Why Java? Because I wanted to see just how powerful Java really is for game development. No external game engine, no external libraries — just pure JDK. The result is a fully playable, self-contained desktop game with smooth gameplay, responsive controls, and hand-designed audio.
+
+It took me 16 days to build from concept to playable release.
+
+Here's what went into it:
+
+🎮 The Gameplay
+- Defend five cities against waves of enemy missiles raining from the night sky
+- Launch interceptors with your mouse and detonate blast zones mid-air
+- Three launch batteries with limited ammo (10 rounds each), resupplied between waves
+- Combo system: chain kills quickly for multipliers up to x5
+- Survive 10 waves to win — or try harder difficulties (NOOB, PRO, GOD) that scale missile speed dramatically
+
+🔊 The Audio
+- All six sound effects designed by me in GarageBand, inspired by real-life sounds
+- My background in music production helped shape the audio feel — button clicks, laser launches, explosions, victory, and game-over cues
+- Loaded asynchronously so gameplay never stutters
+
+⚙️ The Architecture
+- Pure Java (Swing / AWT / Java2D), headless-safe simulation core separated from the rendering layer
+- Fixed-step game loop with letterboxed 1600×900 logical resolution
+- Wave scheduling, collision detection, particle systems, and procedural starfield/skyline backgrounds
+- 26-check automated self-test suite — all passing
+
+It's been a great reminder that you don't need a heavy game engine to build something fun and polished. Sometimes you just need curiosity, a JDK, and 16 days.
+
+#Java #GameDevelopment #Swing #Java2D #GarageBand #IndieGame #SoftwareEngineering #BuildInPublic
