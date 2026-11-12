@@ -69,11 +69,11 @@ public final class Backgrounds {
     /** Artwork filename for a state, or null when the state has no artwork. */
     static String assetName(GameState state) {
         return switch (state) {
-            case MENU, HIGH_SCORES -> "menu.png";
+            case MENU, HIGH_SCORES -> "main_menu.png";
             case PLAYING, WAVE_INTERMISSION -> "gameplay.png";
-            case PAUSED, SETTINGS, HOW_TO_PLAY -> "pause.png";
+            case PAUSED, SETTINGS, HOW_TO_PLAY -> "pause_page.png";
             case VICTORY -> "victory.png";
-            case GAME_OVER -> "gameover.png";
+            case GAME_OVER -> "game_over.png";
         };
     }
 
