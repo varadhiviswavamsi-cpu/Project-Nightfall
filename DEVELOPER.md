@@ -290,7 +290,7 @@ Notes:
 Project NightFall/
   DEVELOPER.md             This file
   README.md                Player-facing documentation
-  build.sh                 Compile src/ into out/
+  build.sh                 Compile src/ into output/
   run.sh                   Build if needed, then launch (forwards args)
   assets/
     audio/                 WAV sound effects (see §6)

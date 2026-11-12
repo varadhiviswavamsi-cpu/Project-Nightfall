@@ -6,8 +6,8 @@ set -euo pipefail
 
 cd "$(dirname "$0")"
 
-if [ ! -d out ]; then
+if [ ! -d output ]; then
   ./build.sh
 fi
 
-exec java -cp out nightfall.NightfallApp "$@"
+exec java -cp output nightfall.NightfallApp "$@"

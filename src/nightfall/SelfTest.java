@@ -14,7 +14,7 @@ import nightfall.ui.Theme;
  *
  * <p>Runs a battery of deterministic checks against the simulation and the
  * renderer without opening a window or requiring any audio device. Invoked via
- * {@code java -cp out nightfall.NightfallApp --selftest}. Every check prints a
+ * {@code java -cp output nightfall.NightfallApp --selftest}. Every check prints a
  * {@code [PASS]}/{@code [FAIL]} line and the process exit code reflects the
  * overall result (0 when everything passed).</p>
  */

@@ -33,7 +33,7 @@ From the project root:
 ./build.sh
 ```
 
-This compiles every `.java` file under `src/` into the `out/` directory.
+This compiles every `.java` file under `src/` into the `output/` directory.
 
 If the script is not executable yet, either make it executable or run it with
 bash:
@@ -196,13 +196,13 @@ run.bat         # Windows (double-click)
 ./run.sh
 ```
 
-`run.sh` builds automatically if `out/` does not exist, then launches the game.
+`run.sh` builds automatically if `output/` does not exist, then launches the game.
 Any arguments you pass are forwarded to the app (see **Command-line options**).
 
 You can also run directly:
 
 ```sh
-java -cp out nightfall.NightfallApp
+java -cp output nightfall.NightfallApp
 ```
 
 ---
@@ -289,8 +289,8 @@ page. It is **not** shown on the main menu itself, only in-game.
 Examples:
 
 ```sh
-java -cp out nightfall.NightfallApp --selftest
-java -cp out nightfall.NightfallApp --frames 120
+java -cp output nightfall.NightfallApp --selftest
+java -cp output nightfall.NightfallApp --frames 120
 ```
 
 ---
@@ -299,7 +299,7 @@ java -cp out nightfall.NightfallApp --frames 120
 
 ```
 Project NightFall/
-  build.sh                 Compile src/ into out/
+  build.sh                 Compile src/ into output/
   release.sh               Compile, embed assets, package ProjectNightfall.jar
   run.sh                   Build if needed, then launch
   run.bat                  Windows fallback launcher (double-click)

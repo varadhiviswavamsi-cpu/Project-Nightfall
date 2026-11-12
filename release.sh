@@ -12,7 +12,7 @@ echo "  PROJECT NIGHTFALL - Release Build"
 echo "================================================"
 
 # ---- Step 1: Compile Java sources ----------------------------------------
-rm -rf build out
+rm -rf build output
 mkdir -p build/classes/assets/audio build/classes/images build/META-INF dist
 
 echo "[1/4] Compiling Java sources..."
